@@ -9,7 +9,9 @@ V1: parse data in script
 V2: parse data outside script
 V3: compensate for user input for dataset(Target data)
 
-#: How to Use the Updated Files:
+---
+
+## How to Use the Updated Files:
 1.  Save Both Files: Place both t_shirt_analysis.py and db_config.json in the same directory.
 
 2.  Edit db_config.json: Open the db_config.json file and replace the placeholder values ("your_db_name", "your_username", etc.) with your actual PostgreSQL database credentials.
@@ -18,6 +20,8 @@ Run the Script: Execute the Python script from your terminal:
 
 Bash
 ```
+    git clone https://github.com/ostronic/Bincom-ICT-Solutions-Data-Analysis.git
+    cd Bincom-ICT-Solutions-Data-Analysis/
     pip -r install requirements.txt
     python t_shirt_analysis.py
 ```
