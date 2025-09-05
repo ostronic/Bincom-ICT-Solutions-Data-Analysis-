@@ -1,11 +1,12 @@
-#** Statistical Data Analysis**
+** Statistical Data Analysis**
+
     _t_shirt_analysis.py script 
     __VERSIONS: 1, 2, 3
     V1: parse data in script
     V2: parse data outside script
     V3: compensate for user input for dataset(Target data)
 
-#How to Use the Updated Files:
+##How to Use the Updated Files:
 1.  Save Both Files: Place both t_shirt_analysis.py and db_config.json in the same directory.
 
 2.  Edit db_config.json: Open the db_config.json file and replace the placeholder values ("your_db_name", "your_username", etc.) with your actual PostgreSQL database credentials.
