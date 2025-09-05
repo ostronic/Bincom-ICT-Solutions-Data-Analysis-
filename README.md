@@ -1,12 +1,15 @@
-** Statistical Data Analysis**
+# 📶 Statistical Data Analysis
 
-    _t_shirt_analysis.py script 
-    __VERSIONS: 1, 2, 3
-    V1: parse data in script
-    V2: parse data outside script
-    V3: compensate for user input for dataset(Target data)
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Build](https://img.shields.io/github/actions/workflow/status/ostronic/datasaver/python-app.yml?label=build)](https://github.com/ostronic/datasaver/actions)
 
-##How to Use the Updated Files:
+ ## _t_shirt_analysis.py script 
+__VERSIONS: 1, 2, 3
+V1: parse data in script
+V2: parse data outside script
+V3: compensate for user input for dataset(Target data)
+
+#: How to Use the Updated Files:
 1.  Save Both Files: Place both t_shirt_analysis.py and db_config.json in the same directory.
 
 2.  Edit db_config.json: Open the db_config.json file and replace the placeholder values ("your_db_name", "your_username", etc.) with your actual PostgreSQL database credentials.
@@ -15,6 +18,7 @@ Run the Script: Execute the Python script from your terminal:
 
 Bash
 ```
+    pip -r install requirements.txt
     python t_shirt_analysis.py
 ```
 4.  **Follow the Prompts:**
