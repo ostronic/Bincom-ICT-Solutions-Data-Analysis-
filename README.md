@@ -20,7 +20,7 @@ Run the Script: Execute the Python script from your terminal:
 
 Bash
 ```
-    git clone https://github.com/ostronic/Bincom-ICT-Solutions-Data-Analysis.git
+    git clone [https://github.com/ostronic/Bincom-ICT-Solutions-Data-Analysis.git](https://github.com/ostronic/Bincom-ICT-Solutions-Data-Analysis-.git)
     cd Bincom-ICT-Solutions-Data-Analysis/
     pip -r install requirements.txt
     python t_shirt_analysis.py
